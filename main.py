@@ -99,7 +99,7 @@ if __name__ == '__main__':
             message += f'sum reward: {sum_reward}'
             print(message)
 
-    maddpg.save(episode_rewards)  # save model
+    maddpg.save(episode_rewards)  # save model 11
 
 
     def get_running_reward(arr: np.ndarray, window=100):
